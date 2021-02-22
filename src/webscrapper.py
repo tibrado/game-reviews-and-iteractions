@@ -78,9 +78,3 @@ class WebRunner:
 
         file.close()
         self.chrome_driver.close()
-
-
-    
-# s = WebRunner('/media/noel/USB Drive/DS/Drivers/chromedriver', 'https://www.ign.com/reviews/games', "jsx-613493230", 5)
-#s.run()
-print(9574 / 6)
