@@ -78,3 +78,26 @@ def console(name):
                 found = True
 
     return console
+
+
+lvl = [0, 0, 0]
+
+def set_bin_level(low, medium, high):
+    lvl[0] = low
+    lvl[1] = medium
+    lvl[2] = high
+
+def bin_(value):
+    '''
+    Parameters: 
+        string (str): string  
+    
+    Returns: 
+        string (str): console name 
+    '''
+    if value < lvl[0]:
+        return 'low'
+    elif value < lvl[1]:
+        return 'medium'
+    else: 
+        return 'high'
