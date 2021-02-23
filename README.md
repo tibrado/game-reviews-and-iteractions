@@ -1,6 +1,6 @@
 # Imagine Game Network (IGN) Game Review Legitimacy
 
-    Over the years, gamers have revered IGN as one of the foremost experts in gaming and entertainment. Frankly, if you have played a console or PC game, you have heard of IGN. So, how accurate is IGN with their game reviews?
+    > **Over the years, gamers have revered IGN as one of the foremost experts in gaming and entertainment. Frankly, if you have played a console or PC game, you have heard of IGN. So, how accurate is IGN with their game reviews?**
 
 ## Data
 
