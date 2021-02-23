@@ -12,7 +12,7 @@ class TextCleaner:
             print(f'Did not find file at path {path}')
 
     
-    def level_1(self, strip, split = None):
+    def level1(self, strip, split = None):
         # rating, date, # comments, name
         row = [None, None, None, None]
         index = 0
@@ -37,6 +37,13 @@ class TextCleaner:
                 index = 0
         
         self.file.close()
+
+    
+    def level2(self, column = None, lower = False, punctuation = False, file = None):
+        if not file:
+            pass
+        pass
+            
 
 
     def save_csv(self, file, header = None):
