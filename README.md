@@ -11,7 +11,11 @@ Data is taken <font color="grey">*aka scrapped*</font> from [IGN Game Reviews](h
     3. Date of rating
     4. Number of comments 
 
-### Glispe
+<h2 align = "center" color = "grey"> What we got </h2>
+
+<p align = "center">
+<img src = "img/game_reviewed.png" width="300"></img>
+</p>
 
 ---
 
@@ -20,7 +24,7 @@ Data is taken <font color="grey">*aka scrapped*</font> from [IGN Game Reviews](h
 ## Data Dictionary
 
 |Variable|Data Type|Defined As|
-|--------|----------|-------|
+|:--------|:----------|:-------|
 |Rating|float|IGN Reviewer Rating|
 |Date|date|date formate(year-month-day)|
 |Comment Count|int|Number of comments on review|
