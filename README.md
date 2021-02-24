@@ -11,10 +11,10 @@ Data is taken <font color="grey">*aka scrapped*</font> from [IGN Game Reviews](h
     3. Date of rating
     4. Number of comments 
 
-<h2 align = "center" color = "grey"> What we got </h2>
+<h3 align = "center" color =grey> What we got </h3>
 
 <p align = "center">
-<img src = "img/game_reviewed.png" width="300"></img>
+<img src = "img/game_reviewed.png" width="500"></img>
 </p>
 
 ---
