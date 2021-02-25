@@ -55,14 +55,13 @@ Games Reviewed|# Rating and Comments
 
 <summary>The Mann-Whitney U test is used to conduct the hypothesis testings. </summary>
 
-__Mann-Whitney U Test__ compares two independent groups when the dependent variable is either ordinal or continuous but not normally distributed.
+    Mann-Whitney U Test compares two independent groups when the dependent variable is either ordinal or continuous but not normally distributed.
 
-<u>Assumptions</u>
-
-1. The dependent variable is ordinal or continuous.
-2. The Independent variable is two categorically independent groups.
-3. Observations are independent.
-4. Dataset is not normally distributed.
+    Assumptions: 
+       1. The dependent variable is ordinal or continuous.
+       2. The Independent variable is two categorically independent groups.
+       3. Observations are independent.
+       4. Dataset is not normally distributed.
 
 </details>
 
@@ -87,7 +86,7 @@ We would like to know the significance of 6 items:
 
 <p align="center"><img src = "img/comment_rank_ignrating.png" width = "400"></p>
 
-## Results 
+## Conclusion
 
 <details>
 
@@ -106,7 +105,7 @@ We would like to know the significance of 6 items:
 
 <details>
 
-<h3><summary>Data Dictionary</summary></h3>
+<summary> Data Dictionary</summary>
 
 |Variable|Data Type|Defined As|
 |:--------|:----------|:-------|
