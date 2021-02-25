@@ -47,7 +47,7 @@ Data is taken [*aka scrape*](src/webscrapper.py) from [IGN Game Reviews](https:/
 
 Games Reviewed|# Rating and Comments
 :-:|:-:
-<img src = "img/game_reviewed.png" width = "500"></img>|<img src = "img/nrating_and_ncomment.png"></img>
+<img src = "img/game_reviewed.png" width = "400"></img>|<img src = "img/nrating_and_ncomment.png" width = "400"></img>
 
 ## Testing
 
@@ -70,32 +70,43 @@ The significance level is 0.05, and any p-values low will be statistically signi
 
 We would like to know the significance of 6 items:
 
-*IGN Rankings*
+*IGN Ranks*
 
 1. Low rating vs Medium rating comment count
 2. Low rating vs High rating comment count
 3. Medium rating vs High rating comment count
    
-<p align="center"><img src = "img/ign_rank_ncomment.png" width = "300"></p>
+<p align="center"><img src = "img/ign_rank_ncomment.png" width = "400"></p>
 
-*Comment Ranking*
+*Comment Ranks*
 
-4. Low rating vs Medium rating comment count
-5. Low rating vs High rating comment count
-6. Medium rating vs High rating comment count
+1. Low rating vs Medium rating comment count
+2. Low rating vs High rating comment count
+3. Medium rating vs High rating comment count
 
 
-<p align="center"><img src = "img/comment_rank_ignrating.png" width = "300"></p>
+<p align="center"><img src = "img/comment_rank_ignrating.png" width = "400"></p>
 
 ## Results 
 
+<details>
+
+<summary>Table of pvalues </summary>
+
+||low vs high| low vs medium| medium vs high|
+|-|-----------|--------------|---------------|
+|**IGN Ranks**|0.00|<font color = 'red'>0.26</font>|0.00|
+|**Comment Ranks**|0.00|<font color = 'red'>0.23</font>|0.00|
+
+</details>
 
 ---
 
 ---
 
+<details>
 
-## Data Dictionary
+<h3><summary>Data Dictionary</summary></h3>
 
 |Variable|Data Type|Defined As|
 |:--------|:----------|:-------|
@@ -108,3 +119,5 @@ We would like to know the significance of 6 items:
 |Console|string|Console game was reviewed on|
 |Rate Rank|string|low (> 6.8), medium (6.8 - 8.5), high (< 8.5)|
 |Comment Rank|string|low (> 36), medium (36 - 670), high (< 670)|
+
+</details>
