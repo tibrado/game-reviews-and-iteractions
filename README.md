@@ -2,8 +2,13 @@
 
  **Over the years, gamers have revered IGN as one of the foremost experts in gaming and entertainment. Frankly, if you have played a console or PC game, you have heard of IGN. Todays' question is: whether IGN Rating *("game reviews ratings")* has any impact on user conversation *(number of comments)*?**
 
+<details>
+<summary>Hypothesis</summary>
+
     [H0] Higher-rated games have more conversations. 
     [H1] Higher-rated games do not have more conversations. 
+
+</details>
 
 ## Data
 
@@ -14,14 +19,14 @@ Data is taken <font color="grey">*aka scrapped*</font> from [IGN Game Reviews](h
     3. Date of rating
     4. Number of comments 
 
-## Missing 
+### Overview 
 
-|Variable|# Missing|Imputed As|
-|:--------|:----------|:-------|
-|Rating|0||
-|Date|0||
-|Comment Count|246|0|
-|Name|0||
+|Variable|# Missing|Imputed As|# of Observations |
+|:--------|:----------|:-------|:-------------|
+|Rating|0||1999|
+|Date|0||1999|
+|Comment Count|246|0|1999|
+|Name|0||1999|
 
 
 ## Add Variables
@@ -40,10 +45,26 @@ Data is taken <font color="grey">*aka scrapped*</font> from [IGN Game Reviews](h
 
 <h3 align = "center" color =grey> What we got </h3>
 
-Games Reviewed|Rating and Comments
+Games Reviewed|# Rating and Comments
 :-:|:-:
 <img src = "img/game_reviewed.png" width = "500"></img>|<img src = "img/nrating_and_ncomment.png"></img>
 
+## Testing 
+
+<details>
+
+<summary>The Mann-Whitney U test is used to conduct the hypothesis testings. </summary>
+
+__Mann-Whitney U Test__ compares two independent groups when the dependent variable is either ordinal or continuous but not normally distributed.
+
+<u>Assumptions</u>
+
+1. The dependent variable is ordinal or continuous.
+2. The Independent variable is two categorically independent groups.
+3. Observations are independent.
+4. Dataset is not normally distributed.
+
+</details>
 
 
 ---
