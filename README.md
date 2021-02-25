@@ -2,12 +2,10 @@
 
  **Over the years, gamers have revered IGN as one of the foremost experts in gaming and entertainment. Frankly, if you have played a console or PC game, you have heard of IGN. So, how accurate is IGN with their *"game reviews ratings"*?**
 
->H0: IGN game review ratings are accurate.
+    [H0] IGN game review ratings are accurate.
+    [H1] IGN game review ratings are not accurate.
 
->H1: IGN game review ratings are not accurate.
-
-<font color="grey">**Note:**  We assume that users are active with things they like. Therefore high comments mean users are interested in said game.</font> 
-
+>**Note:**  We assume that users are active with things they like. Therefore high comments mean users are interested in said game.
 
 ## Data
 
