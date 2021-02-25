@@ -12,7 +12,7 @@
 
 ## Data
 
-Data is taken <font color="grey">*aka scrapped*</font> from [IGN Game Reviews](https://www.ign.com/reviews/games) and is as followed:
+Data is taken [*aka scrape*](src/webscrapper.py) from [IGN Game Reviews](https://www.ign.com/reviews/games) and is as followed:
 
     1. Game Name 
     2. IGN game review rating
@@ -29,7 +29,7 @@ Data is taken <font color="grey">*aka scrapped*</font> from [IGN Game Reviews](h
 |Name|0||1999|
 
 
-## Add Variables
+### Created Variables
 
 ```bash
 ├── Date
@@ -49,7 +49,7 @@ Games Reviewed|# Rating and Comments
 :-:|:-:
 <img src = "img/game_reviewed.png" width = "500"></img>|<img src = "img/nrating_and_ncomment.png"></img>
 
-## Testing 
+## Testing
 
 <details>
 
@@ -66,10 +66,34 @@ __Mann-Whitney U Test__ compares two independent groups when the dependent varia
 
 </details>
 
+The significance level is 0.05, and any p-values low will be statistically significant to this project.
+
+We would like to know the significance of 6 items:
+
+*IGN Rankings*
+
+1. Low rating vs Medium rating comment count
+2. Low rating vs High rating comment count
+3. Medium rating vs High rating comment count
+   
+<p align="center"><img src = "img/ign_rank_ncomment.png" width = "300"></p>
+
+*Comment Ranking*
+
+4. Low rating vs Medium rating comment count
+5. Low rating vs High rating comment count
+6. Medium rating vs High rating comment count
+
+
+<p align="center"><img src = "img/comment_rank_ignrating.png" width = "300"></p>
+
+## Results 
+
 
 ---
 
 ---
+
 
 ## Data Dictionary
 
