@@ -55,33 +55,33 @@ Games Reviewed|# Rating and Comments
 
 <summary>The Mann-Whitney U test is used to conduct the hypothesis testings. </summary>
 
-    Mann-Whitney U Test compares two independent groups when the dependent variable is either ordinal or continuous but not normally distributed.
+>Mann-Whitney U Test compares two independent groups when the dependent variable is either ordinal or continuous but not normally distributed.
 
     Assumptions: 
-       1. The dependent variable is ordinal or continuous.
-       2. The Independent variable is two categorically independent groups.
-       3. Observations are independent.
-       4. Dataset is not normally distributed.
+        1. The dependent variable is ordinal or continuous.
+        2. The Independent variable is two categorically independent groups.
+        3. Observations are independent.
+        4. Dataset is not normally distributed.
 
 </details>
 
-The significance level is 0.05, and any p-values low will be statistically significant to this project.
+> The significance level is 0.05, and any p-values low will be statistically significant to this project.
 
 We would like to know the significance of 6 items:
 
 *IGN Ranks*
 
-1. Low rating vs Medium rating comment count
-2. Low rating vs High rating comment count
-3. Medium rating vs High rating comment count
+    1. Low rating vs Medium rating comment count
+    2. Low rating vs High rating comment count
+    3. Medium rating vs High rating comment count
    
 <p align="center"><img src = "img/ign_rank_ncomment.png" width = "400"></p>
 
 *Comment Ranks*
 
-1. Low rating vs Medium rating comment count
-2. Low rating vs High rating comment count
-3. Medium rating vs High rating comment count
+    4. Low rating vs Medium rating comment count
+    5. Low rating vs High rating comment count
+    6. Medium rating vs High rating comment count
 
 
 <p align="center"><img src = "img/comment_rank_ignrating.png" width = "400"></p>
