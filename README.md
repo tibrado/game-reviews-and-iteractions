@@ -1,3 +1,5 @@
+<img src = "img/top.png" hight= "100"></img>
+
 # Imagine Game Network (IGN) Game Review Legitimacy
 
  **Over the years, gamers have revered IGN as one of the foremost experts in gaming and entertainment. Frankly, if you have played a console or PC game, you have heard of IGN. Todays' question is: whether IGN Rating *("game reviews ratings")* has any impact on user conversation *(number of comments)*?**
