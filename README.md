@@ -80,6 +80,7 @@ Games Reviewed|# Rating and Comments
         None    :   value is zero
 
 ---
+
 ```python
 # In python 
 import scipy.stats as stats
@@ -87,6 +88,7 @@ import scipy.stats as stats
 stats.mannwhitneyu(x, y)    # Mann Whitney
 stats.spearmanr(x, y)       # Spearman 
 ```
+
 ---
 </details>
 
