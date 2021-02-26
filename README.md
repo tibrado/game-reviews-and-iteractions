@@ -5,8 +5,8 @@
 <details>
 <summary>Hypothesis</summary>
 
-    [H0] Higher-rated games have more conversations. 
-    [H1] Higher-rated games do not have more conversations. 
+    [H0] Higher-rated games do not have more conversations. 
+    [H1] Higher-rated games have more conversations. 
 
 </details>
 
@@ -88,7 +88,7 @@ stats.spearmanr(x, y)       # Spearman
 
 > The significance level is 0.05, and any p-values low will be statistically significant to this project.
 
-We would like to know the significance of 4 items:
+We would like to test a few assumtions:
 
 *Comment Ranks*
 
@@ -96,10 +96,14 @@ We would like to know the significance of 4 items:
     2. Low rating vs High rating comment count
     3. Medium rating vs High rating comment count
 
+<p align="center"><img src = "img/comment_rank_ignrating.png" width = "400"></p>
+
 *Comment Count and IGN Rating*
 
+    4. Number of Comments vs IGN Rating. 
 
-<p align="center"><img src = "img/comment_rank_ignrating.png" width = "400"></p>
+<p align="center"><img src = "img/scatter_commentvsrating.png" width = "400"></p>
+
 
 ## Conclusion
 
@@ -123,7 +127,7 @@ We would like to know the significance of 4 items:
 
 </details>
 
-
+</font color= "blue">Inconclusion, it appears that there is a relation between IGN game review rating and user conversations about said games.</font>
 
 ---
 
