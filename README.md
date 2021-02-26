@@ -43,13 +43,13 @@ Data is taken [*aka scrape*](src/webscrapper.py) from [IGN Game Reviews](https:/
     └── comment rank    (str 3 levels)
 ```
 
-<font color = "grey"> 
+<p style= "color: grey"> 
 
 Games Reviewed|# Rating and Comments
 :-:|:-:
 <img src = "img/game_reviewed.png" width = "400"></img>|<img src = "img/nrating_and_ncomment.png" width = "400"></img>
 
-</font>
+</p>
 
 ## Testing
 
@@ -127,7 +127,7 @@ We would like to test a few assumtions:
 
 </details>
 
-</font color= "blue">Inconclusion, it appears that there is a relation between IGN game review rating and user conversations about said games.</font>
+>**Inconclusion** it appears that there is a relation between IGN game review rating and user conversations about said games.
 
 ---
 
