@@ -2,6 +2,8 @@
 
  **Over the years, gamers have revered IGN as one of the foremost experts in gaming and entertainment. Frankly, if you have played a console or PC game, you have heard of IGN. Todays' question is: whether IGN Rating *("game reviews ratings")* has any impact on user conversation *(number of comments)*?**
 
+[Explore with tableau](https://public.tableau.com/profile/marketne#!/vizhome/IGNGameReview/Dashboard1?publish=yes)
+
 <details>
 <summary>Hypothesis</summary>
 
