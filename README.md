@@ -29,7 +29,7 @@ Data is taken [*aka scrape*](src/webscrapper.py) from [IGN Game Reviews](https:/
 |Name|0||1999|
 
 
-### Created Variables
+#### Created Variables
 
 ```bash
 ├── Date
@@ -43,18 +43,21 @@ Data is taken [*aka scrape*](src/webscrapper.py) from [IGN Game Reviews](https:/
     └── comment rank    (str 3 levels)
 ```
 
-<h3 align = "center" color =grey> What we got </h3>
+<font color = "grey"> 
 
 Games Reviewed|# Rating and Comments
 :-:|:-:
 <img src = "img/game_reviewed.png" width = "400"></img>|<img src = "img/nrating_and_ncomment.png" width = "400"></img>
 
+</font>
+
 ## Testing
 
 <details>
 
-<summary>The Mann-Whitney U test is used to conduct the hypothesis testings. </summary>
+<summary>Mann-Whitney & Spearman</summary>
 
+---
 >Mann-Whitney U Test compares two independent groups when the dependent variable is either ordinal or continuous but not normally distributed.
 
     Assumptions: 
@@ -62,26 +65,38 @@ Games Reviewed|# Rating and Comments
         2. The Independent variable is two categorically independent groups.
         3. Observations are independent.
         4. Dataset is not normally distributed.
+---
+> The Spearman rank-order correlation coefficient is a nonparametric measure of the monotonicity of the relationship between two datasets. Unlike the Pearson correlation, the Spearman correlation does not assume that both datasets are normally distributed.
 
+    Correlation Levels:
+        Perfect :   near ± 1
+        Strong  :   between ± 0.50 and ± 1
+        Medium  :   between ± 0.30 and ± 0.49
+        Small   :   below + .29
+        None    :   value is zero
+
+---
+```python
+# In python 
+import scipy.stats as stats
+
+stats.mannwhitneyu(x, y)    # Mann Whitney
+stats.spearmanr(x, y)       # Spearman 
+```
+---
 </details>
 
 > The significance level is 0.05, and any p-values low will be statistically significant to this project.
 
-We would like to know the significance of 6 items:
+We would like to know the significance of 4 items:
 
-*IGN Ranks*
+*Comment Ranks*
 
     1. Low rating vs Medium rating comment count
     2. Low rating vs High rating comment count
     3. Medium rating vs High rating comment count
-   
-<p align="center"><img src = "img/ign_rank_ncomment.png" width = "400"></p>
 
-*Comment Ranks*
-
-    4. Low rating vs Medium rating comment count
-    5. Low rating vs High rating comment count
-    6. Medium rating vs High rating comment count
+*Comment Count and IGN Rating*
 
 
 <p align="center"><img src = "img/comment_rank_ignrating.png" width = "400"></p>
@@ -90,14 +105,25 @@ We would like to know the significance of 6 items:
 
 <details>
 
-<summary>Table of pvalues </summary>
+<summary>Mann-Whitney Test: Null rejected for low vs high and high vs medium. Null accepted for low vs medium. </summary>
 
 ||low vs high| low vs medium| medium vs high|
 |-|-----------|--------------|---------------|
-|**IGN Ranks**|0.00|<font color = 'red'>0.26</font>|0.00|
 |**Comment Ranks**|0.00|<font color = 'red'>0.23</font>|0.00|
 
 </details>
+
+<details>
+
+<summary>Spearman: Null rejected for IGN rating vs the number of comments. There is a small degree of correlation between the two variables.</summary>
+
+||pvalue|cor-coef|
+|-|--------------|---------------|
+|**Comment Counts vs Rating**|0.00|<font color = 'orange'>0.19</font>|
+
+</details>
+
+
 
 ---
 
